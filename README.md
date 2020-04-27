@@ -20,3 +20,13 @@ TODO
   * bits 1-2 is the "sync state"
   * bits 3-5 is the "slot time-out"
   * bits 6-19 is the "sub message"
+
+# nmea-server.py
+Will need pynmea2 and bitstring to be able to work.
+
+The problem is that this aislib needs python2 to be able to run.
+So we need to install pynmea2 and bitstring by manual in ubuntu to make it work.
+
+pip will direct to python3 as default.
+
+
