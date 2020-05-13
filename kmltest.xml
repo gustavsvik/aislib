@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="VehicleIcon">
+   <IconStyle>
+    <heading>179</heading>
+    <Icon>
+     <href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Vehicle</name>
+   <styleUrl>#VehicleIcon</styleUrl>
+   <description>Vehicle position and heading</description>
+   <Point>
+    <coordinates>
+14.9696013,58.54220777,5.269090176
+</coordinates>
+   </Point>
+  </Placemark>
+  <Style id="GpsIcon">
+   <IconStyle>
+    <heading>0</heading>
+    <Icon>
+     <href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>GPS on vehicle</name>
+   <styleUrl>#GpsIcon</styleUrl>
+   <description>Position according to the vehicle GPS</description>
+   <Point>
+    <coordinates>
+14.9696013,58.54220732,5.300000191
+</coordinates>
+   </Point>
+  </Placemark>
+  <Style id="WaypointIcon">
+   <IconStyle>
+    <heading>0</heading>
+    <Icon>
+     <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+    </Icon>
+   </IconStyle>
+  </Style>
+  <Placemark>
+   <name>Waypoint</name>
+   <styleUrl>#WaypointIcon</styleUrl>
+   <description>Waypoint position</description>
+   <Point>
+    <coordinates>
+14.9696013,58.5424238,5.291028976
+</coordinates>
+   </Point>
+  </Placemark>
+</Document>
+</kml>
