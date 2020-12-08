@@ -4,6 +4,7 @@ aislib
 A Python library for decoding and encoding: 
  * AIS type 1 messages
  * AIS type 5 messages
+ * AIS type 21 messages
  * AIS type 24 part A and Part B messages (main craft case )
  
 As there exist reliable and comprehensive python decoders, the emphasis is on encoding.
@@ -28,5 +29,3 @@ The problem is that this aislib needs python2 to be able to run.
 So we need to install pynmea2 and bitstring by manual in ubuntu to make it work.
 
 pip will direct to python3 as default.
-
-
